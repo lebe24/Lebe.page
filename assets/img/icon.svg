@@ -1,0 +1,15 @@
+<svg width="56" height="52" viewBox="0 0 56 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="41.0453" height="38.0065" rx="11" transform="matrix(0.888709 0.458473 -0.513667 0.85799 19.5227 0)" fill="url(#paint0_linear_47_55)"/>
+<rect width="4.18558" height="18.4136" rx="2.09279" transform="matrix(0.992685 -0.12073 0.139755 0.990186 15.9036 17.0201)" fill="white"/>
+<rect width="3.89565" height="9.12477" rx="1.94783" transform="matrix(0.181584 0.984199 -0.986903 0.1569 27.672 29.8688)" fill="white"/>
+<rect width="4.18363" height="18.4235" rx="2.09181" transform="matrix(-0.989736 0.142911 -0.165264 -0.986249 38.1854 32.1702)" fill="white"/>
+<rect width="2.58783" height="9.12051" rx="1.29391" transform="matrix(-0.206903 -0.979336 0.983014 -0.178958 25.0398 18.3261)" fill="white"/>
+<path d="M24.3325 17.25C24.217 16.5241 24.714 15.8547 25.4425 15.7548V15.7548C26.171 15.655 26.8551 16.1625 26.9706 16.8885L27.5768 20.7006C27.6923 21.4265 27.1953 22.0959 26.4668 22.1957V22.1957C25.7383 22.2956 25.0542 21.788 24.9388 21.0621L24.3325 17.25Z" fill="white"/>
+<ellipse rx="0.983925" ry="1.04035" transform="matrix(0.994857 -0.108731 0.125713 0.991159 29.8045 21.663)" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear_47_55" x1="0.867621" y1="15.4045" x2="36.9901" y2="25.99" gradientUnits="userSpaceOnUse">
+<stop offset="0.0677083" stop-color="#2684F1"/>
+<stop offset="0.963542"/>
+</linearGradient>
+</defs>
+</svg>
