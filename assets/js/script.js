@@ -338,9 +338,6 @@ const srtop = ScrollReveal({
 
 });
 
-const entries = [ 
-  './assets/img/icon2.png', 
-];
 
 
 // Sphere Text

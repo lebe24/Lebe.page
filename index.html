@@ -22,188 +22,148 @@
 
 </head>
 <body>
+
     <header class="header">
-        <a href="http://" class="logo"><i class="fab">
+      <div class="container-logo">
+        <a href="http://" class="logo">
           <img src="./assets/img/icon.svg" alt="">
-          <img  src="./assets/img/LEBEPAGE.svg" style="padding-bottom: 15px; " alt=""></i>
+          <img  src="./assets/img/LEBEPAGE.svg" style="padding-bottom: 15px; " alt="">
         </a>
+      </div>
+      
+      <div id="menu" class="fas fa-bars"></div>
 
-        <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+          <ul>
+          <li><a class="" href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+  </header>
 
-        <nav class="navbar">
-            <ul>
-            <li><a class="" href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+    <div class="box-container">
+      <div class="content">
+          <h3>Hi <span class="wave">👋🏾</span> Over here,<br/> Emmanuel <span>Lebe</span></h3>
+          <p>i am a <span class="typing-text"></span></p>
+          <h2>Building codes to make a better world</h2>
+          <a href="#about" class="btn"><span>About Me</span>
+            <i class="fas fa-arrow-circle-down"></i>
+          </a>
+
+          <div class="socials">
+            <ul class="social-icons">
+              <li><a class="linkedin" href="https://www.linkedin.com/in/jigar-sable/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+              <li><a class="github" href="https://github.com/jigar-sable" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/jigar_sab" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li><a class="telegram" href="https://t.me/lifecode5" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+              <li><a class="instagram" href="#"><i class="fab fa-instagram" target="_blank"></i></a></li>
+              <li><a class="dev" href="https://dev.to/jigarsable" target="_blank"><i class="fab fa-dev"></i></a></li>
             </ul>
-        </nav>
-    </header> 
+        </div>
+      </div>
+      <div class="container-globe">
+        <img src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg" alt="Glowing universe" class="background-lights">
+        <div id="globeCanvas" ></div> 
+      </div>
+    </div>
+  </section>
 
-    <section class="home" id="home">
-         <div id="particles-js"></div>
-         <div class="box">
-            <div class="content">
-                <h3>Hi <span class="wave">👋🏾</span> Over here,<br/> Emmanuel <span>Lebe</span></h3>
-                <p>i am a <span class="typing-text"></span></p>
-                <h2>Building codes to make a better world</h2>
-                <a href="#about" class="btn"><span>About Me</span>
-                  <i class="fas fa-arrow-circle-down"></i>
-                </a>
+  <!-- About -->
+  <section class="about" id="about">
+    <h2 class="heading"> About <span>Me</span></h2>
 
-                <div class="socials">
-                    <ul class="social-icons">
-                      <li><a class="linkedin" href="https://www.linkedin.com/in/jigar-sable/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
-                      <li><a class="github" href="https://github.com/jigar-sable" target="_blank"><i class="fab fa-github"></i></a></li>
-                      <li><a class="twitter" href="https://twitter.com/jigar_sab" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                      <li><a class="telegram" href="https://t.me/lifecode5" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
-                      <li><a class="instagram" href="#"><i class="fab fa-instagram" target="_blank"></i></a></li>
-                      <li><a class="dev" href="https://dev.to/jigarsable" target="_blank"><i class="fab fa-dev"></i></a></li>
-                    </ul>
-                </div>
+    <div class="profile">
+      <div class="card" style="color: white;">
+        <p>Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer 
+          Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
+          Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
+          Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
+          Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
+          Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
+          Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
+          Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
+          Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
+          Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
+          <br>
+          <a href="#" class="btn"> MORE Skills</a>
+        </p>
 
-              </div>  
+      </div>
+
+       <!-- <div clsass="box-pic"> 
+        <img src="./assets/img/person.png" style="position: absolute;" width="500" height="620" alt="">  
+        <span class="Sphere"></span> 
+      </div>  -->
+    </div>
+  </section>
+
+  <!-- Works section -->
+  <section class="works" id="work">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> side Projects</h2>
+
+    <div class="card blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+        <div class="blog-slider__item ">
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">26 December 2019</span>
+            <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+            <a href="#" class="blog-slider__button">READ MORE</a>
+          </div>
+          <div class="blog-slider__img">
+          
+            <!-- <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp" alt=""> -->
+            <img src="./assets/img/web_ui.png " width="50" height="90" alt="">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="contact" id="contact">
+  
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+  
+    <div class="container">
+      <div class="content">
+        <div class="image-box">
+          <!-- <img draggable="false" src="./assets/img/person.png" alt=""> -->
+        </div>
+      <form action="#">
         
-              <div class="container-globe">
-                <img src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg" alt="Glowing universe" class="background-lights">
-                <div id="globeCanvas">
-                </div>
-              </div>
-            </div>
-    </section>
-    <!-- end of hero page -->
-
-    <!-- About -->
-    <section class="about" id="about">
-      <h2 class="heading"> About <span>Me</span></h2>
-
-      <div class="profile">
-        <div class="card" style="color: white;">
-          <p>Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer 
-            Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
-            Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
-            Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
-            Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
-            Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
-            Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
-            Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
-            Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
-            Hi, I'm Emmanuel lebe,A software developer Hi, I'm Emmanuel lebe,A software developer Hi,
-            <br>
-            <a href="#" class="btn"> MORE Skills</a>
-          </p>
-  
+        <div class="form-group">
+          <div class="field">
+            <input type="text" name="name" placeholder="Name" required>
+            <i class='fas fa-user'></i>
+          </div>
+          <div class="field">
+            <input type="text" name="email" placeholder="Email" required>
+            <i class='fas fa-envelope'></i>
+          </div>
+          <div class="field">
+            <input type="text" name="phone" placeholder="Phone">
+            <i class='fas fa-phone-alt'></i>
+          </div>
+          <div class="message">
+          <textarea placeholder="Message" name="message" required></textarea>
+          <i class="fas fa-comment-dots"></i>
+          </div>
+          </div>
+        <div class="button-area">
+          <button type="submit" title="Sorry! This service hasn't active yet. Till then have live chat.">
+            Submit <i class="fa fa-paper-plane"></i></button>
         </div>
-
-        <div clsass="box-pic">
-          
-          <img src="./assets/img/person.png" style="position: absolute;" width="500" height="620" alt=""> 
-          <span class="Sphere"></span> 
-        </div>
-      </div>
-
-    </section>
-    <!-- end of About section -->
-
-    <!-- Works section -->
-    <section class="works" id="work">
-      <h2 class="heading"><i class="fas fa-user-alt"></i> side Projects</h2>
-
-      <div class="card blog-slider">
-        <div class="blog-slider__wrp swiper-wrapper">
-          <div class="blog-slider__item ">
-            <div class="blog-slider__content">
-              <span class="blog-slider__code">26 December 2019</span>
-              <div class="blog-slider__title">Lorem Ipsum Dolor</div>
-              <a href="#" class="blog-slider__button">READ MORE</a>
-            </div>
-            <div class="blog-slider__img">
-            
-              <!-- <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp" alt=""> -->
-              <img src="./assets/img/web_ui.png " width="50" height="90" alt="">
-            </div>
-            
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-
-
-    <!-- Contact section -->
-
-    <!-- <section class="contact" id="contact">
-
-      <div class="contact-box">
-          <h2 class="heading"><i class="fas fa-user-alt"></i>Contact</h2>
-
-        <div class="glass blog-slider__img" style="margin-left: 100px;">
-          <div class="content">
-            <div>
-              <h1>haiwniernwnonoroon</h1>
-            </div> 
-             <form action="#" >
-                  <div class="form-group">
-                    <div class="field">
-                      <i class='fas fa-envelope'></i>
-                      <input class="input" type="text" name="email" placeholder="Email" required>
-                      <i class='fas fa-user'></i>
-                      <input  class="input" type="text" name="name" placeholder="name" required> 
-                    </div>
-                    <div class="message">
-                      <textarea class="input" placeholder="Message" name="message" required></textarea>
-                      </div>
-                  </div>
-                  <a href="#about" class="btn2 blog-slider__button "><span>Send </span>
-                    <i class="fas fa-paper-plane"></i>
-                  </a>
-              </form>
-          </div>
-          </div>
-          <img src="./assets/img/Astronaut.png" width="300" height="350" alt="" class="astro">
-      </div>  
-    </section> -->
-
-    <section class="contact" id="contact">
-  
-      <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
-    
-      <div class="container">
-        <div class="content">
-          <div class="image-box">
-            <img draggable="false" src="./assests/images/contact1.png" alt="">
-          </div>
-        <form action="#">
-          
-          <div class="form-group">
-            <div class="field">
-              <input type="text" name="name" placeholder="Name" required>
-              <i class='fas fa-user'></i>
-            </div>
-            <div class="field">
-              <input type="text" name="email" placeholder="Email" required>
-              <i class='fas fa-envelope'></i>
-            </div>
-            <div class="field">
-              <input type="text" name="phone" placeholder="Phone">
-              <i class='fas fa-phone-alt'></i>
-            </div>
-            <div class="message">
-            <textarea placeholder="Message" name="message" required></textarea>
-            <i class="fas fa-comment-dots"></i>
-            </div>
-            </div>
-          <div class="button-area">
-            <button type="submit" title="Sorry! This service hasn't active yet. Till then have live chat.">
-              Submit <i class="fa fa-paper-plane"></i></button>
-          </div>
-        </form>
-      </div>
-      </div>
-      <img src="./assets/img/Astronaut.png" width="300" height="350" alt="" class="astro">
-    </section>
+      </form>
+    </div>
+    </div>
+    <img src="./assets/img/Astronaut.png" width="300" height="350" alt="" class="astro">
+  </section>
 
     <!-- footer -->
     <section class="footer">
@@ -244,6 +204,7 @@
       <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/jigar-sable"> Lebepages</a></h1>
     
     </section>
+    
 
     <!-- jquery cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
