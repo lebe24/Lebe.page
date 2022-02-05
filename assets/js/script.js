@@ -232,11 +232,11 @@ $("#globeCanvas").on('mousedown', function(e) {
 
 
 $(document).mouseup(function() {
-  isDragging = false;
+  isDragging = true;
 });
 
 $("#canvas").mouseout(function() {
-  isDragging = false;
+  isDragging = true;
 });
 
 //SETUP camera
