@@ -216,7 +216,6 @@ $("#globeCanvas").on('mousedown', function(e) {
     isDragging = true;
   })
   .on('mousemove', function(e) {
-    console.log("hi");
     var deltaMove = {
       x: e.offsetX - previousMousePosition.x
     };
@@ -252,7 +251,6 @@ function GrowTube(index, renderCount) {
   renderCount = Math.ceil(renderCount / 3) * 3
   tubes[index].setDrawRange(0, renderCount)
   if (index > 2) {
-    console.log(renderCount)
     tubes[index - 3].setDrawRange(renderCount, 10000)
   } else {
     tubes[(tubes.length - 3) + index].setDrawRange(renderCount, 10000)
@@ -287,7 +285,7 @@ const animate = function() {
 animate();
 
 function onWindowResize() {
-  renderer.setSize(container.offsetHeight, container.offsetHeight);
+  renderer.setSize(container.offsetHeight, container.offsetwidth);
 }
 
 
