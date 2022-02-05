@@ -384,7 +384,7 @@ section{
 } 
 
 
-@media(max-width:800px){
+@media(max-width:600px){
   .home{
     padding-right: 0;
     padding-left: 0;
@@ -540,7 +540,7 @@ section{
 }
 
 
-@media(max-width:800px){
+@media(max-width:900px){
   .about .profile{
     display: block;
   }
