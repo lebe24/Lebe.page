@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,74 +10,163 @@
     <meta name="keywords" content="LebePage lifecodess,portfolio,lifecodes, Portfolio, lifecodess,personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
     <meta name="description" content="Welcome to LebePage. Passionate  Developer. Freelancer Web Designer and Android Developer." />
 
-     <!-- Custom CSS -->
-     <link rel="stylesheet" href="./assets/style/main.css">
-     
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/style/main.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
      <!-- Favicon -->
      <link id='favicon' rel="shortcut icon" href="./assets/img/icon2.png" type="image/x-png">
 
-    <title>Portfolio | LebePage</title>
+
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src='./assets/js/jquery.svg3dtagcloud.min.js'></script>
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
+
+    <style type='text/css'>
+
+    </style>
+
+    <script>
+
+    	$( document ).ready( function() {
+
+            var entries = [ 
+
+                { image: './img/python.jpg', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Briefcase.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Brush.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Calendar.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Camera.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Cassette.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Clock.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Cloud_Download.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Cloud_Upload.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Coffee.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Comments.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Credit_Card.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Diary.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Document.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Envelope.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Eraser.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/File_Browser.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Games.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Headphones.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Heart.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Home.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/ID.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/iPod.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Key.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Location.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Location_Map.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Map.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Megaphone.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Message.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Microphone.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                { image: './img/Mobile.png', width: '50', height: '50', url: 'http://jquery-plugins.net/', target: '_top' },
+                
+            ];
+
+            var settings = {
+
+                entries: entries,
+                width: 380,
+                height: 380,
+                radius: '75%',
+                radiusMin: 75,
+                bgDraw: true,
+                bgColor: 'transparent',
+                opacityOver: 1.00,
+                opacityOut: 0.05,
+                opacitySpeed: 6,
+                fov: 800,
+                speed: 0.5,
+                fontFamily: 'Oswald, Arial, sans-serif',
+                fontSize: '15',
+                fontColor: '#fff',
+                fontWeight: 'normal',//bold
+                fontStyle: 'normal',//italic 
+                fontStretch: 'normal',//wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                fontToUpperCase: true,
+                tooltipFontFamily: 'Oswald, Arial, sans-serif',
+                tooltipFontSize: '11',
+                tooltipFontColor: '#fff',
+                tooltipFontWeight: 'normal',//bold
+                tooltipFontStyle: 'normal',//italic 
+                tooltipFontStretch: 'normal',//wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                tooltipFontToUpperCase: false,
+                tooltipTextAnchor: 'left',
+                tooltipDiffX: 0,
+                tooltipDiffY: 10
+
+            };
+
+            //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
+            $( '#holder' ).svg3DTagCloud( settings );
+
+		} );
+        
+    </script>
 
 </head>
+
 <body>
 
-    <header class="header">
-      <div class="container-logo">
-        <a href="http://" class="logo">
-          <img src="./assets/img/icon.svg" alt="">
-          <img  src="./assets/img/LEBEPAGE.svg" style="padding-bottom: 15px; " alt="">
-        </a>
-      </div>
-      
-      <div id="menu" class="fas fa-bars"></div>
-
-      <nav class="navbar">
-          <ul>
-          <li><a class="" href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-          </ul>
-      </nav>
-  </header>
-
-  <section class="home" id="home">
-    <div id="particles-js"></div>
-    <div class="box-container">
-      <div class="content">
-          <h3>Hi <span class="wave">👋🏾</span> Over here,<br/> Emmanuel <span>Lebe</span></h3>
-          <p>i am a <span class="typing-text"></span></p>
-          <h2>Building codes to make a better world ...</h2>
-          <a href="#about" class="btn"><span>About Me</span>
-            <i class="fas fa-arrow-circle-down"></i>
-          </a>
-
-          <div class="socials">
-            <ul class="social-icons">
-              <li><a class="linkedin" href="https://www.linkedin.com/in/jigar-sable/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
-              <li><a class="github" href="https://github.com/jigar-sable" target="_blank"><i class="fab fa-github"></i></a></li>
-              <li><a class="twitter" href="https://twitter.com/jigar_sab" target="_blank"><i class="fab fa-twitter"></i></a></li>
-              <li><a class="telegram" href="https://t.me/lifecode5" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
-              <li><a class="instagram" href="#"><i class="fab fa-instagram" target="_blank"></i></a></li>
-              <li><a class="dev" href="https://dev.to/jigarsable" target="_blank"><i class="fab fa-dev"></i></a></li>
-            </ul>
-        </div>
-        <img src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg" alt="Glowing universe" class="background-lights">
-      </div>
-
-      <div class="container-globe">
-        <div id="globeCanvas"  style="width: 4%;"></div> 
-      </div>
-      
+  <header class="header">
+    <div class="container-logo">
+      <a href="http://" class="logo">
+        <img src="./assets/img/icon.svg" alt="">
+        <img  src="./assets/img/LEBEPAGE.svg" style="padding-bottom: 15px; " alt="">
+      </a>
     </div>
-  </section>
+    
+    <div id="menu" class="fas fa-bars"></div>
 
-  <!-- About -->
+    <nav class="navbar">
+        <ul>
+        <li><a class="" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="home" id="home">
+  <div id="particles-js"></div>
+  <div class="box-container">
+    <div class="content">
+        <h3>Hi <span class="wave">👋🏾</span> Over here,<br/> Emmanuel <span>Lebe</span></h3>
+        <p>i am a <span class="typing-text"></span></p>
+        <h2>Building codes to make a better world ...</h2>
+        <a href="#about" class="btn"><span>About Me</span>
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+
+        <div class="socials">
+          <ul class="social-icons">
+            <li><a class="linkedin" href="https://www.linkedin.com/in/jigar-sable/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+            <li><a class="github" href="https://github.com/jigar-sable" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a class="twitter" href="https://twitter.com/jigar_sab" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="telegram" href="https://t.me/lifecode5" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+            <li><a class="instagram" href="#"><i class="fab fa-instagram" target="_blank"></i></a></li>
+            <li><a class="dev" href="https://dev.to/jigarsable" target="_blank"><i class="fab fa-dev"></i></a></li>
+          </ul>
+      </div>
+      <img src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg" alt="Glowing universe" class="background-lights">
+    </div>
+
+    <div class="container-globe">
+      <div id="globeCanvas"  style="width: 4%;"></div> 
+    </div>
+    
+  </div>
+</section>
+    <!-- About -->
   <section class="about" id="about">
     <h2 class="heading"> About <span>Me</span></h2>
 
@@ -94,9 +185,10 @@
 
       </div>
 
-       <div clsass="box-pic"> 
-        <!-- <img class="img-1"src="./assets/img/person.png" style="position: absolute;" width="500" height="620" alt="">   -->
-        <!-- <span class="Sphere"></span>  -->
+        <div clsass="box-pic"> 
+         <div id='holder'></div>
+        <img class="img-1"src="./assets/img/person.png"  width="500" height="620" alt="">  
+        
       </div> 
     </div>
   </section>
@@ -109,7 +201,7 @@
       <div class="blog-slider__wrp swiper-wrapper">
         <div class="blog-slider__item ">
           <div class="blog-slider__content">
-            <span class="blog-slider__code">26 December 2019</span>
+            <span class="blog-slider__code ">26 December 2019</span>
             <div class="blog-slider__title">Lorem Ipsum Dolor</div>
             <a href="#" class="blog-slider__button btn2">READ MORE</a>
           </div>
@@ -203,28 +295,27 @@
       <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/jigar-sable"> Lebepages</a></h1>
     
     </section>
+
+  <!-- jquery cdn -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'></script>
+
+  <!-- particle.js links -->
+  <script src="./assets/js/particles.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+  <!-- Including the TagCloud.js script CDN in the document    -->
+  <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+
+
+  <!-- typed.js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <!-- scroll reveal anim -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- main script -->
+  <script  src="./assets/js/script.js"></script>
     
 
-    <!-- jquery cdn -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'></script>
-
-    <!-- particle.js links -->
-    <script src="./assets/js/particles.min.js"></script>
-    <script src="./assets/js/app.js"></script>
-
-    <!-- Including the TagCloud.js script CDN in the document    -->
-    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
-
-
-    <!-- typed.js cdn -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-    <!-- scroll reveal anim -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- main script -->
-    <script  src="./assets/js/script.js"></script>
 </body>
-</html>
