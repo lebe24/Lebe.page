@@ -232,11 +232,11 @@ $("#globeCanvas").on('mousedown', function(e) {
 
 
 $(document).mouseup(function() {
-  isDragging = true;
+  isDragging = false;
 });
 
 $("#canvas").mouseout(function() {
-  isDragging = true;
+  isDragging = false;
 });
 
 //SETUP camera
@@ -339,44 +339,3 @@ const srtop = ScrollReveal({
 
 
 // Sphere Text
-const Texts = [
-  'HTML', 'CSS', 'JAVASCRIPT',
-  'PYTHON', 'Flutter', 'REACT',
-  'PYTHON', 'AWS',
-  'DJANGO', 'NODEJS', 'MONGODB',
-  'FIREBASE', 'MYSQL', 'JQUERY', 'JAVA'
-];
-
-var tagCloud = TagCloud('.Sphere', Texts, {
-
-  // Sphere radius in px
-  radius: 230,
-
-  // animation speed
-  // slow, normal, fast
-  maxSpeed: 'normal',
-  initSpeed: 'fast',
-
-  // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)] 
-  direction: 135,
-
-  // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
-  keep: true
-});
-
-var color = '#5ddcff';
-document.querySelector('.Sphere').style.color = color;
-
-var swiper = new Swiper('.blog-slider', {
-  spaceBetween: 30,
-  effect: 'fade',
-  loop: true,
-  mousewheel: {
-    invert: false,
-  },
-  // autoHeight: true,
-  pagination: {
-    el: '.blog-slider__pagination',
-    clickable: true,
-  }
-});
