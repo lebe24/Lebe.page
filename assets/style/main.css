@@ -717,8 +717,49 @@ section{
       width: 100%;
       padding:10px 10px;
     }
+    
+    .controler{
+      margin-top: 10rem !important;
+      outline: none;
+    }
+  
   }
 
+  .controler{
+    margin: 2rem auto;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .controler div{
+    margin:0 1rem;
+    padding: 1rem;
+    border:2px solid green;
+    border-radius: 12px;
+  }
+
+  .controler div:hover{
+    background: linear-gradient(
+      var(--rotate),#5ddcff,#3c67e3,#4e00c2
+    );
+    animation: background 5s ease-out;
+  }
+
+  .controler div:nth-child(1){
+    background: linear-gradient(
+      var(--rotate),#5ddcff,#3c67e3,#4e00c2
+    );
+    animation: background 5s ease-out;
+  }
+
+  .controler div:nth-child(2){
+    background: linear-gradient(
+      var(--rotate),#5ddcff,#3c67e3,#4e00c2
+    );
+    animation: background 5s ease-out;
+  }
+
+  /* Contact */
 .contact{
   margin:0  auto;
   min-height: 100vh;
