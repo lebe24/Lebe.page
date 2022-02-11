@@ -291,7 +291,7 @@ function onWindowResize() {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-  strings: ["software engineer","fullstack developer", "web designing", "Mobile developer", "lover of Algorithms"],
+  strings: ["software engineer","fullstack developer", "web desiger", "Mobile developer", "lover of Algorithms"],
   loop: true,
   typeSpeed: 50,
   backSpeed: 25,
@@ -342,8 +342,8 @@ const srtop = ScrollReveal({
 
 var project =[
 
-  { image: './img/python.jpg',  url: 'http://jquery-plugins.net/', header: 'project 1' ,text: 'text 1' },
-  { image: './img/python.jpg',  url: 'http://jquery-plugins.net/', header: 'project 2' ,text: 'text 2' },
+  { image: './assets/project-img/web_1.png ',  url: 'http://jquery-plugins.net/', header: 'project 1' ,text: 'text 1' },
+  { image: './assets/project-img/web_ui2.png',  url: 'http://jquery-plugins.net/', header: 'project 2' ,text: 'text 2' },
   { image: './img/python.jpg',  url: 'http://jquery-plugins.net/', header: 'project 3' ,text: 'text 3' },
   { image: './img/python.jpg',  url: 'http://jquery-plugins.net/', header: 'project 4' ,text: 'text 4' },
 ];
@@ -353,6 +353,8 @@ i = 0;
 function click_btn(index){
   
   document.getElementById('projectname').innerHTML =  project[i].header;
+  document.getElementById('img').src =  project[i].image;
+
   project[i].header == undefined ? i=1 : i +=index;
 
   if(i == project.length){
