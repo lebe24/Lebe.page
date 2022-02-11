@@ -350,6 +350,11 @@ section{
 .social-icons a.github:hover {
   background-color:#0e0e0e
 }
+.social-icons a.whatapp:hover {
+  background-color:#34e92d;
+  color:#fff;
+}
+
 .social-icons a.twitter:hover {
   background-color:#00aced
 }
@@ -437,7 +442,7 @@ section{
   }
   
   #globeCanvas {
-    height: 130vh;
+    height: 150vh;
   } 
 }
 
