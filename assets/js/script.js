@@ -291,7 +291,7 @@ function onWindowResize() {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-  strings: ["software engineer","fullstack developer", "web desiger", "Mobile developer", "lover of Algorithms"],
+  strings: ["software engineer","fullstack developer", "web desinger", "Mobile developer", "lover of Algorithms"],
   loop: true,
   typeSpeed: 50,
   backSpeed: 25,
@@ -342,10 +342,11 @@ const srtop = ScrollReveal({
 
 var project =[
 
-  { image: './assets/project-img/web_1.png ',  url: 'http://jquery-plugins.net/', header: 'project 1' ,text: 'text 1' },
-  { image: './assets/project-img/web_ui2.png',  url: 'http://jquery-plugins.net/', header: 'project 2' ,text: 'text 2' },
-  { image: './img/python.jpg',  url: 'http://jquery-plugins.net/', header: 'project 3' ,text: 'text 3' },
-  { image: './img/python.jpg',  url: 'http://jquery-plugins.net/', header: 'project 4' ,text: 'text 4' },
+  { image: './assets/project-img/web_1.png ',  url: 'http://jquery-plugins.net/', header: 'Web design' ,text: 'A simple web ui' },
+  { image: './assets/project-img/web_ui2.png',  url: 'http://jquery-plugins.net/', header: 'crypto ui' ,text: 'Ui for crypto wallet' },
+  { image: './assets/project-img/react-app.png',  url: 'http://jquery-plugins.net/', header: 'Music App' ,text: 'A React music app '},
+  { image: './assets/project-img/travel-app.png ',  url: 'http://jquery-plugins.net/', header: 'Travel app' ,text: 'A React travel app' },
+  { image: './assets/img/web_ui.png ',  url: 'http://jquery-plugins.net/', header: 'Web app' ,text: 'Web ui app' },
 ];
 
 i = 0;
@@ -353,6 +354,8 @@ i = 0;
 function click_btn(index){
   
   document.getElementById('projectname').innerHTML =  project[i].header;
+  document.getElementById('project-text').innerHTML =  project[i].text;
+
   document.getElementById('img').src =  project[i].image;
 
   project[i].header == undefined ? i=1 : i +=index;
