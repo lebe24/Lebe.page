@@ -291,7 +291,7 @@ function onWindowResize() {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-  strings: ["software engineer","fullstack developer", "web desinger", "Mobile developer", "lover of Algorithms"],
+  strings: ["software engineer","fullstack developer", "web designer", "Mobile developer", "lover of Algorithms"],
   loop: true,
   typeSpeed: 50,
   backSpeed: 25,
