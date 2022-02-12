@@ -118,7 +118,7 @@ padding: .5rem 0;
   
   .header .navbar{
     position: fixed;
-    top: 6.5rem; right: -100%;
+    top: 4.5rem; right: -100%;
     width: 70%;
     height: 100%;
     text-align: left;
@@ -145,7 +145,7 @@ padding: .5rem 0;
     padding: 1rem;
     text-align: left;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   header .navbar ul li a.active,
   header .navbar ul li a:hover{
@@ -442,7 +442,7 @@ section{
   }
   
   #globeCanvas {
-    height: 150vh;
+    height: 130vh;
   } 
 }
 
@@ -586,7 +586,7 @@ section{
     top:120px;
     right: 20%;
     
-    width: 120%;
+    width: 100%;
     height: 530px;
     /* overflow: hidden; */
   }
@@ -787,11 +787,18 @@ section{
   padding: 2.5rem 2rem;
 }
 .contact .content .image-box{
-  max-width: 60%;
-  margin-left: 4rem;
+  max-width: 30%;
+  font-size: 1.8rem;
+  color: #1a047e;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.image-box h5 {
+  font-size: 1.0rem;
 }
 .contact .content .image-box img{
-  width: 100%;
+  width: 40%;
   height: 40rem;
   position: relative;
 }
