@@ -1046,3 +1046,23 @@ form .button-area{
   }
 }
 /* footer section ends */
+
+/* sidehtml */
+
+.sidehtml{
+  font-size: 1.5rem;
+    background: #040D20;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.w1{
+  background-color: black !important;
+  margin-bottom: 12em;
+}
+
+@media(max-width:650px){
+  .w1{
+    margin-bottom: 10rem;
+  }
+}
