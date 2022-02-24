@@ -23,24 +23,34 @@
             </div>
             <div class="row" id="project"></div>
         </div>
+        <div controler>More project comming soon...</div>
     </section>
    <script>
      const person =[  
          {
             name: "Travel App",
             link: "#",
+            title: "web ui smart card",
             image: "./assets/project-img/Travel.png"
         },
         {
             name: "Travel App",
             link: "#",
+            title: "React UI",
             image: "./assets/project-img/react-app.png"
         },
 
         {
             name: "Smart card UI",
+            title: "web ui smart card",
             link: "https://zz1dxp.csb.app/",
             image: "./assets/project-img/mobile.png"
+        },
+        {
+            name: "Smart card UI",
+            title: "Demo for fangame",
+            link: "https://zz1dxp.csb.app/",
+            image: "./assets/project-img/mobile2.png"
         }
     ];
 
@@ -48,7 +58,7 @@
         for (let x in person) {
 
         document.getElementById("project").innerHTML +='<div class="card blog-slider w1"><div class="blog-slider__wrp swiper-wrapper"><div class="blog-slider__item "><div class="blog-slider__content"><span id="projectname" class="blog-slider__code ">'+ person[x].name +'</span>'
-            +'<div id="project-text" class="blog-slider__title">A Basic WEB standard UI</div>'
+            +'<div id="project-text" class="blog-slider__title">'+person[x].title +'</div>'
             +'<a id="a-tag" href="'+person[x].link + '" class="blog-slider__button btn2">View App</a></div><div class="blog-slider__img"><img id="img" src="'+person[x].image+'" width="50" height="90" alt=""></div></div></div></div>' ;
         };
     </script>
