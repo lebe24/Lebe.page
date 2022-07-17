@@ -806,52 +806,23 @@ section{
   width: 55%;
   margin-right: 1.5rem;
 }
-form .form-group{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.form-group .field{
-  height: 50px;
-  display: flex;
+
+.e-box {
+  color: #fff;
+  
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
   position: relative;
-  margin: 1rem;
-  width: 100%;
+  display: inline-block;
 }
-form i{
-  position: absolute;
-  top: 50%;
-  left: 18px;
-  color: rgb(51, 51, 51);
-  font-size: 17px;
-  pointer-events: none;
-  transform: translateY(-50%);
-}
-form .field input,
-form .message textarea{
-  width: 100%;
-  height: 100%;
-  outline: none;
-  padding: 0 16px 0 48px;
-  color: white;
-  background: #040D20;
-  border: 1px solid #FEFBFB;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-.field input::placeholder,
-.message textarea::placeholder{
-  color: rgb(51, 51, 51);
-}
-.field input:focus,
-.message textarea:focus{
-  padding-left: 47px;
-  border: 2px solid rgb(115, 3, 167);
-}
-.field input:focus ~ i,
-.message textarea:focus ~ i{
-  color: rgb(115, 3, 167);
-}
+/* box */
+
+
+
 form .message{
   position: relative;
   margin: 1rem;
