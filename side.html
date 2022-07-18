@@ -30,12 +30,14 @@
         {
             name:"Uniswapclone",
             title:"block uniswap",
+            git:"https://github.com/lebe24/uniswap-clone-main",
             link:"https://kzswj8.sse.codesandbox.io/",
             image:"./assets/project-img/uniswap.png"
         },
         {
             name:"nextjs portfolio",
             title:"next portfolio app still in development",
+            git:"https://github.com/lebe24/lebepage-nextjs-portfolio",
             link:"https://4mebp4.sse.codesandbox.io/",
             image:"./assets/project-img/nextjspage.png"
         },
@@ -48,6 +50,7 @@
         {
             name:"react-movie",
             title:"react-movie",
+            git:"",
             image:"./assets/project-img/movie.png",
             link:"https://1pd0zc.csb.app/",
 
@@ -91,6 +94,7 @@
 
         document.getElementById("project").innerHTML +='<div class="card blog-slider w1"><div class="blog-slider__wrp swiper-wrapper"><div class="blog-slider__item "><div class="blog-slider__content"><span id="projectname" class="blog-slider__code ">'+ person[x].name +'</span>'
             +'<div id="project-text" class="blog-slider__title">'+person[x].title +'</div>'
+            +'<a class="github" href="'+person[x].git+ '" target="_blank"><i class="fab fa-github"></i></a>'
             +'<a id="a-tag" href="'+person[x].link + '" class="blog-slider__button btn2">View App</a></div><div class="blog-slider__img"><img id="img" src="'+person[x].image+'" width="50" height="90" alt=""></div></div></div></div>' ;
         };
     </script>
