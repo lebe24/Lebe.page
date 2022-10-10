@@ -625,7 +625,6 @@ section .neon-text {
 .blog-blox {
     width: 300px;
     position: absolute;
-    border: 1px solid;
     transform: translate(10px);
 }
 
