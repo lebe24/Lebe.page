@@ -9,6 +9,14 @@ const Project = [
         image:"https://github.com/lebe24/spacewalk/raw/master/assets/planetapp.png"
     },
     {
+        name:"MusicJam",
+        title:"A minialistic music app built with react",
+        cat:'filter-web',
+        git:"https://github.com/lebe24/Musicjam",
+        link:"https://e085xz-3000.preview.csb.app/",
+        image:"https://github.com/lebe24/Musicjam/raw/main/musicjam.png"
+    },
+    {
         name:"Uniswapclone",
         title:"web 3",
         cat:'filter-web',
