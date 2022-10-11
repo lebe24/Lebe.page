@@ -116,5 +116,4 @@ Project.map((x)=>{
     `
 })
 
-document.getElementById('projx').innerHTML = `${Project[0].name}`;
 
