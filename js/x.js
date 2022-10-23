@@ -127,6 +127,22 @@ const Project = [
       image:"https://github.com/lebe24/Musicjam/raw/main/musicjam.png"
   },
   {
+      name:"EasyNews",
+      title:"A one stop to all news feeds(still underdevelopment)",
+      cat:'filter-web',
+      git:"https://github.com/lebe24/EasyNews",
+      link:"https://github.com/lebe24/EasyNews",
+      image:"https://github.com/lebe24/EasyNews/blob/master/img/news.jpg"
+  },
+  {
+      name:"CryptoLyf",
+      title:"A simple cryto coins marker price checker",
+      cat:'filter-mobile',
+      git:"https://github.com/lebe24/CryptoLyf",
+      link:"https://github.com/lebe24/CryptoLyf",
+      image:"https://user-images.githubusercontent.com/96375955/187079069-0542cc2f-2ce6-4139-8508-c748fd059fba.png" 
+  },
+  {
       name:"Uniswapclone",
       title:"web 3",
       cat:'filter-web',
@@ -134,6 +150,14 @@ const Project = [
       link:"https://kzswj8.sse.codesandbox.io/",
       image:"https://github.com/lebe24/uniswap-clone-main/raw/master/uniswap.png" 
   },
+//    {
+//       name:"Confident Girl",
+//       title:"Design ui built with react and rive animation",
+//       cat:'filter-web',
+//       git:"https://github.com/lebe24/confident-girl",
+//       link:"https://qpn18p-5173.preview.csb.app/",
+//       image:"https://github.com/lebe24/uniswap-clone-main/raw/master/uniswap.png" 
+//   },
 {
     name:"fitness Guide",
     cat:'filter-web',
@@ -143,12 +167,12 @@ const Project = [
     image:"https://raw.githubusercontent.com/lebe24/fitness-nextui/master/src/assets/nextui.png"
 },
 //   {
-//       name:"3d Apple Store",
-//       title:"Apple 3d Store Ui design",
-//       git:"https://github.com/lebe24/3d",
-//       link:"https://github.com/lebe24/3d",
-//       image:"./assets/project-img/Apple.png"
-//   },
+//        name:"3d Apple Store",
+//        title:"Apple 3d Store Ui design",
+//        git:"https://github.com/lebe24/3d",
+//        link:"https://github.com/lebe24/3d",
+//        image:"./assets/project-img/Apple.png"
+//    },
   {
       name:"flutter iot ui",
       cat:'filter-mobile',
@@ -188,12 +212,12 @@ const Project = [
     link: "https://sy0d0x.csb.app/",
     image: "./assets/img/portfolio/happy.png"
 }, 
-//   {
-//       name: "TicTak UI",
-//       title: "Playable tictak game",
-//       link: "https://w7ljme.csb.app/",
-//       image: "./assets/project-img/tiktac.png"
-//   },
+  {
+      name: "TicTak UI",
+      title: "Playable tictak game",
+      link: "https://w7ljme.csb.app/",
+      image: "./assets/project-img/tiktac.png"
+  },
 
 {
     name: "Gotacha",
