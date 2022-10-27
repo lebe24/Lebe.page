@@ -59,14 +59,14 @@ const Project = [
       title: "A smart E-card Design",
       git:'https://codesandbox.io/s/fq9zcl',
       link: "https://fq9zcl.csb.app/",
-      image: "./assets/img/portfolio/e-card.png"
+      image: "https://media-private.canva.com/qHTYE/MAFQRJqHTYE/1/tl.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20221026%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221026T225944Z&X-Amz-Expires=95484&X-Amz-Signature=8ca2501ed56ad123da3b91c194d5438b9f27e9bb89589cdbdf3a8caa67ba5f0a&X-Amz-SignedHeaders=host&response-expires=Fri%2C%2028%20Oct%202022%2001%3A31%3A08%20GMT"
   },
   {
       name:"Movie App",
       title:"movie app using react",
       cat:'filter-web',
       git:"https://codesandbox.io/s/1pd0zc",
-      image:"./assets/img/portfolio/movie.png",
+      image:"https://media-private.canva.com/ClHVE/MAFQRMClHVE/1/tl.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20221027%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221027T005300Z&X-Amz-Expires=87698&X-Amz-Signature=947adc7db82f4ec665b989a9b82185720c9ca652da205719b81f9ce2004d8438&X-Amz-SignedHeaders=host&response-expires=Fri%2C%2028%20Oct%202022%2001%3A14%3A38%20GMT",
       link:"https://1pd0zc.csb.app/",
 
   },
@@ -76,7 +76,7 @@ const Project = [
       cat:'filter-web',
       git:'https://codesandbox.io/s/sy0d0x?file=/index.html',
       link: "https://sy0d0x.csb.app/",
-      image: "./assets/img/portfolio/happy.png"
+      image: "https://media-private.canva.com/AWrL8/MAFQRHAWrL8/1/tl.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20221027%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221027T035013Z&X-Amz-Expires=77016&X-Amz-Signature=67f137412db6d814f4872b49f686bb404a85cdb3e4275354e31e06985c77a419&X-Amz-SignedHeaders=host&response-expires=Fri%2C%2028%20Oct%202022%2001%3A13%3A49%20GMT"
   }, 
 //   {
 //       name: "TicTak UI",
@@ -90,7 +90,7 @@ const Project = [
       cat:'filter-web',
       title: "just click the view",
       link: "https://3h7rmf.csb.app/",
-      image: "./assets/img/portfolio/gotcha.png"
+      image: "https://media-private.canva.com/8b2ug/MAFQRE8b2ug/1/tl.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20221027%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221027T165352Z&X-Amz-Expires=30977&X-Amz-Signature=13555ce776d54c7909efedb79d349dc4d53d7f77da843921d29ca9c063cd5ed1&X-Amz-SignedHeaders=host&response-expires=Fri%2C%2028%20Oct%202022%2001%3A30%3A09%20GMT"
   },
   {
       name: "Fandom  UI",
@@ -98,7 +98,7 @@ const Project = [
       git:'https://codesandbox.io/s/iwevks',
       title: "Demo for fangame Ui Design",
       link: "https://iwevks.csb.app/",
-      image: "./assets/img/portfolio/mobile2.png"
+      image: "https://media-private.canva.com/6i9Cg/MAFQRI6i9Cg/1/tl.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20221027%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221027T122916Z&X-Amz-Expires=46786&X-Amz-Signature=03ebdc428e8d7e2f0ba4deace462f6b32c168b530741275f0c3806a401efc9cb&X-Amz-SignedHeaders=host&response-expires=Fri%2C%2028%20Oct%202022%2001%3A29%3A02%20GMT"
   }
 ]
 
