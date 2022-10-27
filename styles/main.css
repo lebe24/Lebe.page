@@ -693,7 +693,8 @@ section .neon-text {
     margin: 0 auto;
     min-height: 100vh;
   }
-  .contact .container {
+
+.contact .container {
     display: flex;
     justify-content: space-between;
     padding-inline-start: 15px;
@@ -714,11 +715,25 @@ section .neon-text {
   .container .content-left {
     align-items: center;
     justify-content: space-between;
-    padding: 2.5rem;
+    padding: 1.5rem;
+  }
+
+  .con-icon{
+    display: flex;
   }
 
   .rightSide{
-    margin: 5%;
+    margin: 3%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 19px;
+  }
+
+  .rightSide .text p{
+    padding-bottom: 1.2rem;
+  }
+
+.text a{
+    color:blue
   }
   
 
