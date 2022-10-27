@@ -115,7 +115,7 @@ const Project = [
       title:"informative planetary app",
       cat:'filter-mobile',
       git:"https://github.com/lebe24/spacewalk",
-      link:" ",
+      link:"https://github.com/lebe24/spacewalk",
       image:"https://github.com/lebe24/spacewalk/raw/master/assets/planetapp.png"
   },
   {
@@ -140,7 +140,7 @@ const Project = [
       cat:'filter-mobile',
       git:"https://github.com/lebe24/CryptoLyf",
       link:"https://github.com/lebe24/CryptoLyf",
-      image:"https://user-images.githubusercontent.com/96375955/187079069-0542cc2f-2ce6-4139-8508-c748fd059fba.png" 
+      image:"assets/img/portfolio/cryto.png" 
   },
   {
       name:"Uniswapclone",
@@ -150,14 +150,14 @@ const Project = [
       link:"https://kzswj8.sse.codesandbox.io/",
       image:"https://github.com/lebe24/uniswap-clone-main/raw/master/uniswap.png" 
   },
-//    {
-//       name:"Confident Girl",
-//       title:"Design ui built with react and rive animation",
-//       cat:'filter-web',
-//       git:"https://github.com/lebe24/confident-girl",
-//       link:"https://qpn18p-5173.preview.csb.app/",
-//       image:"https://github.com/lebe24/uniswap-clone-main/raw/master/uniswap.png" 
-//   },
+   {
+      name:"Confident Girl",
+      title:"Design ui built with react and rive animation",
+      cat:'filter-web',
+      git:"https://github.com/lebe24/confident-girl",
+      link:"https://qpn18p-5173.preview.csb.app/",
+      image:"https://github.com/lebe24/uniswap-clone-main/raw/master/uniswap.png" 
+  },
 {
     name:"fitness Guide",
     cat:'filter-web',
@@ -166,13 +166,13 @@ const Project = [
     link:"https://nextui-byy.pages.dev/",
     image:"https://raw.githubusercontent.com/lebe24/fitness-nextui/master/src/assets/nextui.png"
 },
-//   {
-//        name:"3d Apple Store",
-//        title:"Apple 3d Store Ui design",
-//        git:"https://github.com/lebe24/3d",
-//        link:"https://github.com/lebe24/3d",
-//        image:"./assets/project-img/Apple.png"
-//    },
+  {
+       name:"3d Apple Store",
+       title:"Apple 3d Store Ui design",
+       git:"https://github.com/lebe24/3d",
+       link:"https://github.com/lebe24/3d",
+       image:"assets/img/portfolio/apple.gif"
+   },
   {
       name:"flutter iot ui",
       cat:'filter-mobile',
