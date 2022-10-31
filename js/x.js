@@ -132,7 +132,7 @@ const Project = [
       cat:'filter-web',
       git:"https://github.com/lebe24/EasyNews",
       link:"https://github.com/lebe24/EasyNews",
-      image:"./assets/img/portfolio/news.png"
+      image:"./assets/img/portfolio/news.jpg"
   },
   {
       name:"CryptoLyf",
