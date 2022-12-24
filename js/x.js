@@ -111,61 +111,53 @@
 const Project = [
 
   {
-      name:"Space Walk",
-      title:"informative planetary app",
-      cat:'filter-mobile',
-      git:"https://github.com/lebe24/spacewalk",
-      link:"https://github.com/lebe24/spacewalk",
-      image:"./assets/img/portfolio/planetapp.png"
-  },
-  {
-      name:"MusicJam",
-      title:"A minialistic music app built with react",
-      cat:'filter-web',
-      git:"https://github.com/lebe24/Musicjam",
-      link:"https://e085xz-3000.preview.csb.app/",
-      image:"./assets/img/portfolio/musicjam.png"
-  },
-  {
-      name:"EasyNews",
-      title:"A one stop to all news feeds(still underdevelopment)",
-      cat:'filter-web',
-      git:"https://github.com/lebe24/EasyNews",
-      link:"https://github.com/lebe24/EasyNews",
-      image:"./assets/img/portfolio/news.jpg"
-  },
-  {
-      name:"CryptoLyf",
-      title:"A simple cryto coins marker price checker",
-      cat:'filter-mobile',
-      git:"https://github.com/lebe24/CryptoLyf",
-      link:"https://github.com/lebe24/CryptoLyf",
-      image:"./assets/img/portfolio/cryto.png" 
-  },
-  {
-      name:"Uniswapclone",
-      title:"web 3",
-      cat:'filter-web',
-      git:"https://github.com/lebe24/uniswap-clone-main",
-      link:"https://kzswj8.sse.codesandbox.io/",
-      image:"./assets/img/portfolio/uniswap.png" 
-  },
-   {
+    name:"Space Walk",
+    title:"informative planetary app",
+    cat:'filter-mobile',
+    git:"https://github.com/lebe24/spacewalk",
+    link:" ",
+    image:"https://github.com/lebe24/spacewalk/raw/master/assets/planetapp.png"
+},
+{
+    name:"MusicJam",
+    title:"A minialistic music app built with react",
+    cat:'filter-web',
+    git:"https://github.com/lebe24/Musicjam",
+    link:"https://e085xz-3000.preview.csb.app/",
+    image:"https://github.com/lebe24/Musicjam/raw/main/musicjam.png"
+},
+{
+    name:"Uniswapclone",
+    title:"web 3",
+    cat:'filter-web',
+    git:"https://github.com/lebe24/uniswap-clone-main",
+    link:"https://kzswj8.sse.codesandbox.io/",
+    image:"https://github.com/lebe24/uniswap-clone-main/raw/master/uniswap.png" 
+},
+{
+  name:"Crytolyf",
+  title:"Cryto price checker for mobile",
+  cat:'filter-mobile',
+  git:"https://github.com/lebe24/CryptoLyf",
+  link:"https://github.com/lebe24/CryptoLyf",
+  image:"https://github.com/lebe24/CryptoLyf/raw/master/cryto.png" 
+},
+{
+  name:"fitness Guide",
+  cat:'filter-web',
+  title:"fitness app design using nextui by vercel",
+  git:"https://github.com/lebe24/nextui",
+  link:"https://nextui-byy.pages.dev/",
+  image:"https://i.ibb.co/jwrhqgq/nextui.png"
+},
+{
       name:"Confident Girl",
       title:"Design ui built with react and rive animation",
       cat:'filter-web',
       git:"https://github.com/lebe24/confident-girl",
       link:"https://qpn18p-5173.preview.csb.app/",
-      image:"./assets/img/portfolio/confident.gif" 
+      image:"https://github.com/lebe24/confident-girl/raw/master/confident.gif" 
   },
-{
-    name:"fitness Guide",
-    cat:'filter-web',
-    title:"fitness app design using nextui by vercel",
-    git:"https://github.com/lebe24/nextui",
-    link:"https://nextui-byy.pages.dev/",
-    image:"./assets/img/portfolio/nextui.png"
-},
   // {
   //      name:"3d Apple Store",
   //      title:"Apple 3d Store Ui design",
@@ -179,7 +171,7 @@ const Project = [
       title:"flutter iot design",
       git:"https://github.com/lebe24/flutter-iot-ui",
       link:" ",
-      image:"./assets/img/portfolio/flutter-iot.gif"
+      image:"https://github.com/lebe24/flutter-iot-ui/raw/main/flutter-iot.gif"
   },
 //   {
 //       name:"nextjs portfolio",
@@ -193,14 +185,14 @@ const Project = [
   title: "A smart E-card Design",
   git:'https://codesandbox.io/s/fq9zcl',
   link: "https://fq9zcl.csb.app/",
-  image: "./assets/img/portfolio/e-card.png"
+  image: "https://i.ibb.co/zXnnXZW/e-card.png"
 },
 {
   name:"Movie App",
   title:"movie app using react",
   cat:'filter-web',
   git:"https://codesandbox.io/s/1pd0zc",
-  image:"./assets/img/portfolio/movie.png",
+  image:"https://i.ibb.co/B2fsw9r/movie.png",
   link:"https://1pd0zc.csb.app/",
 
 },
@@ -210,7 +202,7 @@ const Project = [
   cat:'filter-web',
   git:'https://codesandbox.io/s/sy0d0x?file=/index.html',
   link: "https://sy0d0x.csb.app/",
-  image: "./assets/img/portfolio/happy.png"
+  image: "https://i.ibb.co/9ZNRFhF/happy.png"
 },
   {
       name: "TicTak UI",
@@ -224,7 +216,7 @@ const Project = [
     cat:'filter-web',
     title: "just click the view",
     link: "https://3h7rmf.csb.app/",
-    image: "./assets/img/portfolio/gotcha(1).png"
+    image: "https://i.ibb.co/3W6m0HD/gotcha-1.png"
 },
 {
     name: "Fandom  UI",
@@ -232,7 +224,7 @@ const Project = [
     git:'https://codesandbox.io/s/iwevks',
     title: "Demo for fangame Ui Design",
     link: "https://iwevks.csb.app/",
-    image: "./assets/img/portfolio/tik.png"
+    image: "https://i.ibb.co/fQvWHHG/mobile2.png"
 }
 ]
 
@@ -243,7 +235,7 @@ Project.map((x)=>{
 
       <div class="col-lg-4 col-md-6 portfolio-item ${x.cat}">
           <div class="portfolio-wrap">
-            <img src="${x.image}" class="img-fluid" alt="">
+            <img src="${x.image}" loading="lazy" class="img-fluid" alt="">  
             <div class="portfolio-info">
               <h4>${x.name}</h4>
               <p>${x.title}</p>

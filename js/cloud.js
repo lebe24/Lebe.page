@@ -2,14 +2,14 @@ $(document).ready(function () {
 
     var entries =[
       {
-        image: "./assets/icons/JS.png",
+        image: "https://skillicons.dev/icons?i=aws",
         width: "50",
         height: "50",
         url: "https://www.javascript.com/",
         target: "_top"
       },
       {
-        image: "./assets/icons/API.png",
+        image: "https://skillicons.dev/icons?i=api",
         width: "50",
         height: "50",
         url: "http://en.m.wikipedia.org/wiki/api",
@@ -23,140 +23,140 @@ $(document).ready(function () {
         target: "_top"
       },
       {
-        image: "./assets/icons/google.png",
+        image: "https://skillicons.dev/icons?i=google",
         width: "50",
         height: "50",
         url: "http://google.com",
         target: "_top"
       },
       {
-        image: "./assets/icons/html-5.png",
+        image: "https://skillicons.dev/icons?i=html",
         width: "50",
         height: "50",
         url: "http://w3school.com/html/",
         target: "_top"
       },
       {
-        image: "./assets/icons/google-cloud.png",
+        image: "https://skillicons.dev/icons?i=gcp",
         width: "50",
         height: "50",
         url: "http://cloud.google.com",
         target: "_top"
       },
       {
-        image: "./assets/icons/github.png",
+        image: "https://skillicons.dev/icons?i=github",
         width: "50",
         height: "50",
         url: "http://github.com",
         target: "_top"
       },
       {
-        image: "./assets/icons/physics.png",
+        image: "https://skillicons.dev/icons?i=react",
         width: "50",
         height: "50",
         url: "http://reactjs.org",
         target: "_top"
       },
       {
-        image: "./assets/icons/java.png",
+        image: "https://skillicons.dev/icons?i=java",
         width: "50",
         height: "50",
         url: "http://java.com",
         target: "_top"
       },
       {
-        image: "./assets/icons/flutter.png",
+        image: "https://skillicons.dev/icons?i=flutter",
         width: "50",
         height: "50",
         url: "http://flutter.io",
         target: "_top"
       },
       {
-        image: "./assets/icons/vscode.png",
+        image: "https://skillicons.dev/icons?i=vscode",
         width: "50",
         height: "50",
         url: "https://code.visualstudio.com/",
         target: "_top"
       },
       {
-        image: "./assets/icons/css3.png",
+        image: "https://skillicons.dev/icons?i=css3",
         width: "50",
         height: "50",
         url: "https://www.w3schools.com/css/",
         target: "_top"
       },
       {
-        image: "./assets/icons/python.png",
+        image: "https://skillicons.dev/icons?i=python",
         width: "50",
         height: "50",
         url: "http://python.org",
         target: "_top"
       },
       {
-        image: "./assets/icons/c-sharp.png",
+        image: "https://skillicons.dev/icons?i=cs",
         width: "50",
         height: "50",
         url: "https://docs.microsoft.com/en-us/dotnet/csharp/",
         target: "_top"
       },
       {
-        image: "./assets/icons/photoshop.png",
+        image: "https://skillicons.dev/icons?i=photoshop",
         width: "50",
         height: "50",
         url: "http://adobe.com",
         target: "_top"
       },
       {
-        image: "./assets/icons/youtube-color.png",
+        image: "https://skillicons.dev/icons?i=youtube",
         width: "50",
         height: "50",
         url: "http://youtube.com",
         target: "_top"
       },
       {
-        image: "./assets/icons/google-firebase.png",
+        image: "https://skillicons.dev/icons?i=firebase",
         width: "50",
         height: "50",
         url: "http://firebase.google.com",
         target: "_top"
       },
       {
-        image: "./assets/icons/node-js.png",
+        image: "https://skillicons.dev/icons?i=nodejs",
         width: "50",
         height: "50",
         url: "http://nodejs.org",
         target: "_top"
       },
       {
-        image: "./assets/icons/google-tensorflow.png",
+        image: "https://skillicons.dev/icons?i=tensorflow",
         width: "50",
         height: "50",
         url: "http://tensorflow.org",
         target: "_top"
       },
       {
-        image: "./assets/icons/photoshop.png",
+        image: "https://skillicons.dev/icons?i=ai",
         width: "50",
         height: "50",
         url: "http://adobe.com",
         target: "_top"
       },
       {
-        image: "./assets/icons/node-js.png",
+        image: "https://skillicons.dev/icons?i=solidity",
         width: "50",
         height: "50",
         url: "http://nodejs.org",
         target: "_top"
       },
       {
-        image: "./assets/icons/pulse.png",
+        image: "https://skillicons.dev/icons?i=docker",
         width: "50",
         height: "50",
         url: "http://en.m.wikipedia.org/wiki/searching",
         target: "_top"
       },
       {
-        image: "./assets/icons/vue-js.png",
+        image: "https://skillicons.dev/icons?i=vue",
         width: "50",
         height: "50",
         url: "http://vuejs.org",
