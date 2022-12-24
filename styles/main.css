@@ -652,7 +652,7 @@ section .neon-text {
       transform: translate(100px,-60px);
   }
   .content-btn{
-      margin-top: 35%;   
+      margin-top: 45%;   
   }
 
   .tr{
@@ -730,6 +730,20 @@ section .neon-text {
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+
+  .contact-text{
+    font-size: 19px;
+  }
+
+  .contact-box{
+    display: block;
+    font-size: 14px;
+  }
+}
+
+
 
 
 
