@@ -166,9 +166,9 @@ $(document).ready(function () {
 
     var settings = {
         entries: entries,
-        width: 180,
+        width: 380,
         height: 380,
-        radius: "75%",
+        radius: "65%",
         radiusMin: 75,
         bgDraw: true,
         bgColor: "transparent",
