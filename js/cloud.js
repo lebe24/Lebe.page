@@ -166,7 +166,7 @@ $(document).ready(function () {
 
     var settings = {
         entries: entries,
-        width: 380,
+        width: 180,
         height: 380,
         radius: "75%",
         radiusMin: 75,
