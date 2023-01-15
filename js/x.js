@@ -110,7 +110,15 @@
 
 const Project = [
 
-  {
+{
+    name:"Rive Ui",
+    title:"informative planetary app",
+    cat:'filter-mobile',
+    git:"https://github.com/lebe24/riveanime",
+    link:" https://github.com/lebe24/riveanime ",
+    image:"https://github.com/lebe24/riveanime/blob/master/rive.gif?raw=true"
+},
+{
     name:"Space Walk",
     title:"informative planetary app",
     cat:'filter-mobile',
