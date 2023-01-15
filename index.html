@@ -44,7 +44,7 @@
 </head>
 <body>
 
-  <header class="header m-2  fixed-top">
+  <header class="header m-2  fixed-top" id="header">
     <nav class="navbar p-1">
         <div class="container ">
           <a href="index.html" class="navbar-brand">
@@ -53,28 +53,29 @@
           </a>
             <div class='m-2' id="navbar">
               <ul class="neon-text" id="ul">
-                <li><a class="nav-link scrollto" href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                 <li><a class="nav-link scrollto" href="#about">About</a></li>
                 <li><a class="nav-link scrollto" href="#services">Services</a></li>
                 <li><a class="nav-link scrollto" href="#work">Work</a></li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
               </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
+                <i class="bi bi-list mobile-nav-toggle "></i>
             </div>
         </div>
       </nav>
 </header>
 
-  <section class="hero">
+  <section class="hero" id="hero">
     <div id="particles-js"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center content">
-          <h3>
-            Hi <span class="wave">👋🏾</span> Over here,<br />
-            Emmanuel <span>Lebe</span>
-          </h3>
-          <p>i am a <span id="typing-text" class="typing-text"></span></p>
+        <div class="col-lg-6 d-flex flex-column justify-content-center content text-uppercase">
+          
+            <h3>Hi <span class="wave">👋🏾</span> Over here, <br />
+              Emmanuel <span>Lebe</span>
+            </h3>
+          
+          <p>I am a <span id="typing-text" class="typing-text"></span></p>
           <h2>Writing codes to make a better world ...</h2>
 
           <div data-aos="fade-up" data-aos-delay="600">
@@ -86,7 +87,7 @@
             </div>
           </div>
           <div class="socials d-sm-flex">
-            <ul class="d-flex social-icons align-items-center">
+            <ul class=" d-flex social-icons">
                 <li><a class="linkein" href="https://www.linkedin.com/in/emmanuelphilipel"><i class="bi bi-linkedin"></i></a></li>
                 <li><a class="github" href="https://github.com/lebe24"><i class="bi bi-github"></i></a></li>
                 <li><a class="twitter" href="https://twitter.com/emmanuellebe24"><i class="bi bi-twitter"></i></a></li>
@@ -108,7 +109,7 @@
   </section>
 
   <!-- About Me -->
-  <section id="about">
+  <section id="about" class="about">
     <div class="neon-text"> About Me </div>
 
     <div class="profile">
