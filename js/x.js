@@ -114,9 +114,19 @@ const Project = [
     name:"Rive Ui",
     title:"informative planetary app",
     cat:'filter-mobile',
+    git:"https://github.com/lebe24/dex",
+    link:" https://github.com/lebe24/dex",
+    image:"https://github.com/lebe24/riveanime/blob/master/rive.gif?raw=true"
+},
+{
+
+    name:"DEX",
+    title:"A Dex utilises the moralis api",
+    cat:'filter-web',
     git:"https://github.com/lebe24/riveanime",
     link:" https://github.com/lebe24/riveanime ",
-    image:"https://github.com/lebe24/riveanime/blob/master/rive.gif?raw=true"
+    image:"https://github.com/lebe24/dex/raw/main/public/Dex.png"
+
 },
 {
     name:"Space Walk",
