@@ -112,10 +112,10 @@ const Project = [
 
 {
     name:"Rive Ui",
-    title:"informative planetary app",
+    title:"Flutter rive example",
     cat:'filter-mobile',
-    git:"https://github.com/lebe24/dex",
-    link:" https://github.com/lebe24/dex",
+    git:"https://github.com/lebe24/riveanime",
+    link:" https://github.com/lebe24/riveamie",
     image:"https://github.com/lebe24/riveanime/blob/master/rive.gif?raw=true"
 },
 {
@@ -123,8 +123,8 @@ const Project = [
     name:"DEX",
     title:"A Dex utilises the moralis api",
     cat:'filter-web',
-    git:"https://github.com/lebe24/riveanime",
-    link:" https://github.com/lebe24/riveanime ",
+    git:"https://github.com/lebe24/dex",
+    link:" https://github.com/lebe24/dex",
     image:"https://github.com/lebe24/dex/raw/main/public/Dex.png"
 
 },
