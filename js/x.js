@@ -141,7 +141,7 @@ const Project = [
     title:"A minialistic music app built with react",
     cat:'filter-web',
     git:"https://github.com/lebe24/Musicjam",
-    link:"https://e085xz-3000.preview.csb.app/",
+    link:"https://musicjam.vercel.app/",
     image:"https://github.com/lebe24/Musicjam/raw/main/musicjam.png"
 },
 {
