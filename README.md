@@ -1,6 +1,10 @@
 <div align="center">
 
-## My Portfolio Page
+ ## My Portfolio Page
+ ![LebePage](profilepic.png)
 
 </div>
+
+### Tech Stack
+
 
