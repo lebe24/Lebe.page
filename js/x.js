@@ -111,6 +111,14 @@
 const Project = [
 
 {
+    name:"Mobile Design Collections",
+    title:"Moblie #2",
+    cat:'filter-mobile',
+    git:"https://github.com/lebe24/Mobile-Design-collection/tree/master/mobile",
+    link:"https://github.com/lebe24/Mobile-Design-collection/tree/master/mobile",
+    image:"https://github.com/lebe24/Mobile-Design-collection/raw/master/mobile/assets/Presentation.png"
+},
+{
     name:"Rive Ui",
     title:"Flutter rive example",
     cat:'filter-mobile',
