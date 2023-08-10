@@ -132,7 +132,7 @@ const Project = [
     title:"A Dex utilises the moralis api",
     cat:'filter-web',
     git:"https://github.com/lebe24/dex",
-    link:" https://github.com/lebe24/dex",
+    link:" https://dex-lebe24.vercel.app/",
     image:"https://github.com/lebe24/dex/raw/main/public/Dex.png"
 
 },
