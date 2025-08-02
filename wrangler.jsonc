@@ -1,6 +1,6 @@
 {
     "main": ".open-next/worker.js",
-    "name": "lebe.page",
+    "name": "lebepage",
     "compatibility_date": "2025-03-25",
     "compatibility_flags": [
       "nodejs_compat"
